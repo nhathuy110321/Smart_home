@@ -1,0 +1,406 @@
+.header1 {
+
+  background-color: blue;
+  color: white;
+}
+
+#header2 {
+  margin-bottom: 0px;
+  background-color: lightgray;
+}
+
+#header-col-left img {
+  width: 20%;
+}
+
+#header-col-right a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-col-right a:hover {
+  color: red;
+}
+
+#header-col-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+#header-col-right a {
+  padding: 5px;
+  margin: 5px;
+
+
+}
+
+#header-col-left img {
+
+  width: 90px;
+  height: 72px;
+  left: 135px;
+  top: 55px;
+}
+
+.Banner img {
+  position: absolute;
+  width: 100%;
+  height: 619px;
+  left: 0px;
+  top: 131px;
+}
+
+.Banner h2 {
+  position: absolute;
+  width: 570px;
+  height: 132px;
+  left: 135px;
+  top: 263px;
+}
+
+.Banner p {
+  margin-top: 0px;
+  position: absolute;
+  width: 560px;
+  height: 66px;
+  left: 135px;
+  top: 425px;
+
+  /* paragraph */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #9595A6;
+
+}
+
+.Banner button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 15px;
+
+  position: absolute;
+  width: 170px;
+  height: 54px;
+  left: 135px;
+  top: 531px;
+
+  /* accent */
+
+  background: #70B64D;
+  border-radius: 68px;
+  color: white;
+}
+
+.container h2 {
+  position: absolute;
+  width: 470px;
+  height: 44px;
+  left: 142px;
+  top: 790px;
+
+  /* h2 / desktop */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 750;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* main */
+
+  color: #2A2A35;
+}
+
+ #card-01 img {
+  position: absolute;
+  width: 670px;
+  height: 311px;
+  left: 135px;
+  top: 1024px;
+
+  background: url(Anh/card01.png), #FFFFFF;
+  box-shadow: inset 0px -1px 1px #F2F2F2;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#card-01 h3 {
+  position: absolute;
+  width: 367px;
+  height: 24px;
+  left: 195px;
+  top: 1390px;
+
+  
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+ 
+
+  color: #2A2A35;
+}
+
+#card-01 p {
+  position: absolute;
+  width: 550px;
+  height: 105px;
+  left: 195px;
+  top: 1434px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  
+
+  
+
+  color: #828282;
+
+}
+
+#card-02 img {
+
+  position: absolute;
+  width: 670px;
+  height: 311px;
+
+  top: 1024px;
+
+
+  background: url(Anh/card02.png), #FFFFFF;
+  box-shadow: inset 0px -1px 1px #F2F2F2;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+#card-02 h3 {
+  position: absolute;
+  width: 367px;
+  height: 24px;
+  top: 1390px;
+
+  
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+
+
+  color: #2A2A35;
+}
+
+#card-02 p {
+  position: absolute;
+  width: 550px;
+  height: 105px;
+  top: 1434px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  
+  color: #828282;
+}
+ /* #card-03 img{
+  position: absolute;  
+  width: 670px;
+  height: 311px;
+  top: 1024px;
+ 
+  background: #FFFFFF;
+  box-shadow: inset 0px -1px 1px #F2F2F2;
+  border-radius: 10px 10px 0px 0px;
+}  */
+  
+.Title h2 {
+  position: absolute;
+  width: 797px;
+  height: 44px;
+  left: 320px;
+  top: 1600px;
+
+  /* h2 / desktop */
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+
+  /* main */
+
+  color: #2A2A35;
+}
+
+.Title p {
+  position: absolute;
+  width: 532px;
+  height: 21px;
+  left: 452px;
+  top: 1650px;
+  bottom: 2580px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+
+  /* #828282 */
+
+  color: #828282;
+}
+
+.Slider {
+  position: absolute;
+  width: 1170px;
+  height: 307px;
+  left: 20%;
+  top: 1700px;
+
+  background: #FBFBFB;
+  /* #F2F2F2 */
+
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+}
+
+.Slider h3 {
+  position: absolute;
+  width: 563px;
+  height: 24px;
+  left: 390px;
+  top: 100px;
+
+  /* h3 / desktop */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+#Yes{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 32px;
+gap: 15px;
+
+position: absolute;
+width: 95px;
+height: 54px;
+left: 500px;
+top: 150px;
+
+/* accent */
+
+background: #70B64D;
+border-radius: 68px;
+}
+#No{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 15px;
+  
+  position: absolute;
+  width: 91px;
+  height: 54px;
+  left: 600px;
+  top: 150px;
+  
+  /* accent */
+  
+  background: #70B64D;
+  border-radius: 68px;
+}
+#img1{
+position: absolute;
+left:2%;
+right: 10%;
+top: 50%;
+
+}
+#img2{
+  position: absolute;
+left:80%;
+right: 67.97%;
+top: 1%;
+
+}
+.Title2 h3{
+  position: absolute;
+width: 485px;
+height: 24px;
+left: 478px;
+top: 2108px;
+
+/* h3 / desktop */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+}
+.Title2 p{
+  position: absolute;
+width: 730px;
+height: 63px;
+left: 355px;
+top: 2150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+text-align: center;
+
+/* #828282 */
+
+color: #828282;
+}
+#Firts-Name{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+color: #2A2A35;
+}
